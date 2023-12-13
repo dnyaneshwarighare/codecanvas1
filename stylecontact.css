@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: url('b.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    position: fixed;
+    top: 1;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-style: italic;
+    font-size: 30px;
+    color: honeydew;
+    text-decoration: solid;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: rgb(237, 244, 237);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 38px;
+    transition: 2s;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: aliceblue;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.contact-form{
+    position: absolute;
+    top: 3cm;
+    left: 3cm;
+    width: 500px;
+    height: 550px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    backdrop-filter: blur(15px) brightness(80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form .input-box{
+    position: relative;
+    color: aliceblue;
+    margin-top: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.contact-form h2{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+    color: rgb(245, 238, 238);
+
+
+}
+.contact-form .message{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 50px;
+    max-height: 50px;
+}
+.contact-form .message .span{
+    color: #fff;
+    font-weight: 300;
+    width: 500px;
+    margin-top: 20px;
+}
+.contact-form input::placeholder{
+    color: aliceblue;
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+
+}
+.contact{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5cm;
+    color: aliceblue;
+    position: absolute;
+    top: 2cm;
+    right: 2cm;
+}
+
+.a{
+    position: absolute;
+    top: 7cm;
+    right: 17cm;
+}
+.b{
+    position: absolute;
+    top: 9cm;
+    right: 17cm;
+}
+
+.c{
+    position: absolute;
+    top: 12.1cm;
+    right: 13cm;
+}
+
+.d{
+    position: absolute;
+    top: 12cm;
+    right: 15cm;
+}
+.hi{
+    font-size: 1mm;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.phone{
+    font-size: 1cm;
+    color: aliceblue;
+    position: absolute;
+    top: 7cm;
+    right: 9.3cm;
+}
+.eml{
+    font-size: 1cm;
+    color: aliceblue;
+    position: absolute;
+    top: 9cm;
+    right: 1.5cm;
+}
+

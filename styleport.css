@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: url('solid-navy-blue-concrete-textured-wall.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    position: fixed;
+    top: 1;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-style: italic;
+    font-size: 30px;
+    color: honeydew;
+    text-decoration: solid;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: rgb(237, 244, 237);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 38px;
+    transition: 2s;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: aliceblue;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.edu{
+    
+    position: absolute;
+    top: 3cm;
+    left: 150px;
+}
+.scho{
+    
+    position: absolute;
+    top: 3cm;
+    left: 600px;
+}
+.sci{
+    
+    position: absolute;
+    top: 3cm;
+    left: 1050px;
+}
+.edut{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+    position: absolute;
+    top: 12cm;
+    left: 150px;
+    
+    
+}
+
+
+.schot{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+    position: absolute;
+    top: 12cm;
+    left: 600px;
+}
+.scit{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+    position: absolute;
+    top: 12cm;
+    left: 1050px;
+    
+}
+.por{
+    position: absolute;
+    top: 16.5cm;
+    left: 10cm;
+    font-size: 0.7cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+}
+

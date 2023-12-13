@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: url('solid-navy-blue-concrete-textured-wall.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    position: fixed;
+    top: 1;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-style: italic;
+    font-size: 30px;
+    color: honeydew;
+    text-decoration: solid;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: rgb(237, 244, 237);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 38px;
+    transition: 2s;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: aliceblue;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.section2{
+    position: fixed;
+    bottom: 0;
+    right: 35px;
+    
+    }
+.section1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    bottom: 250px;
+    right: 1050px;
+    width: 300px;
+    margin: 1cm;
+    
+    color: cornsilk;
+}
+.stu{
+   
+    font-size: 0.5cm;
+}
+.iit{
+    font-size: 0.7cm;
+    color: rgb(234, 207, 146);
+    font-family: serif;
+}
+.name{
+    font-size: 2cm;
+    color: rgb(6, 6, 70);
+    -webkit-text-stroke: 0.1vw;
+    -webkit-text-stroke-color: rgb(244, 241, 247);
+    
+}
